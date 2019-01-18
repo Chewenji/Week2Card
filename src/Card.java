@@ -27,7 +27,7 @@ public class Card {
 
     public void setSuit(String suit) {
         if(suit.equals("Hearts")||suit.equals("Spades")||suit.equals("Diamonds")||suit.equals("Clubs")){
-            this.suit = suit;}
+        this.suit = suit;}
         else{
             System.out.println("Not valid Suit");
         }
@@ -39,6 +39,7 @@ public class Card {
         else{
             System.out.println("not aviliable values");
         }
+            return 0;
     }
 
     public void setValue(int value) {
